@@ -41,28 +41,11 @@
            <!-- Nav section -->
             <nav>
                 <div class="navbar lg:px-80 sora-font2 bg-base-100 bg-[#FFF9F4]">
-                    <div class="navbar-start">
-                      <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M4 6h16M4 12h8m-8 6h16" />
-                          </svg>
-                        </div>
-                       
-                      </div>
+                    <div class="navbar-start ">
                       <img src="c1-assets/logo-header.png" alt="">
-                      <a class="btn btn-ghost text-2xl sora-font2 ">Browse<span class="text-yellow-300">4</span>Pets</a>
+                      <a class="btn btn-ghost lg:text-4xl sora-font2 hidden lg:block">Browse<span class="text-yellow-300">4</span>Pets</a>
                     </div>
-                    <div class="navbar-center hidden lg:flex">
+                    <div class="navbar-center hidden lg:block">
                       <ul class="menu menu-horizontal px-1 text-xl sora-font2">
                         <li><a>Find a pet</a></li>
                         <li><a>Breeds</a></li>
@@ -70,10 +53,11 @@
                       </ul>
                     </div>
                     <div class="navbar-end gap-4">
-                        <i class="fa-solid fa-bell"></i>
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <button class="btn btn-outline btn-warning px-8 py-3">Login</button>
-                        <button class="btn btn-warning px-8 py-3 bg-[#FFDC26]">Register</button>
+                        <i class="fa-solid fa-bell hidden lg:block "></i>
+                        <i class="fa-solid fa-magnifying-glass hidden lg:block"></i>
+                        <i class="fa-solid fa-bars lg:hidden"></i>
+                        <button class="btn btn-outline btn-warning px-8 py-3 hidden lg:block">Login</button>
+                        <button class="btn btn-warning px-8 py-3 bg-[#FFDC26] hidden lg:block ">Register</button>
                     </div>
                   </div>
             </nav>
