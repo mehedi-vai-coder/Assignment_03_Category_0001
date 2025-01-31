@@ -32,7 +32,7 @@
   font-weight: 400;
   font-style: normal;
 }
-@keyframes  appear {
+/* @keyframes  appear { */
   from{
    opacity: 0;
    scale: 0.5;
@@ -99,7 +99,7 @@
             <h1 class="lg:text-4xl text-2xl adlam-display-regular">Browse By Categories</h1>
         <!-- card content -->
          <div class="grid lg:grid-cols-6 gap-6 mt-12 grid-cols-2">
-            <div class=" animate-spin bg-[#F9DF8A] py-9 px-12 rounded-xl text-center">
+            <div class="bg-[#F9DF8A] py-9 px-12 rounded-xl text-center">
                     <div class="avatar space-y-6 bg-[#FFFF] p-7 rounded-full">
                       <img src="c1-assets/dog-cartoon.png" />
                     </div>
@@ -301,12 +301,12 @@
               <h1 class="text-4xl adlam-display-regular mb-12">Everyday low Price</h1>
               <div class="lg:flex  gap-6 ">
                 <!-- low budget dog -->
-                <div class="flex items-center bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-xl">
+                <div class="grid lg:grid-cols-2 grid-rows-1 bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-xl">
                    <!-- budget content -->
-                    <div class="lg:py-36 pl-20">
-                      <p class="text-xl text-bold">Under Price</p>
-                      <h3 class="text-3xl adlam-display-regular">Pet Grooming Mitt</h3>
-                      <p class="text-2xl text-white adlam-display-regular">(Easy Hair Removal)</p>
+                    <div class="lg:py-36 py-9 pl-20 mb-6">
+                      <p class="text-xl text-bold hidden lg:block">Under Price</p>
+                      <h3 class="lg:text-3xl text-xl adlam-display-regular">Pet Grooming Mitt</h3>
+                      <p class="lg:block hidden text-2xl text-white adlam-display-regular">(Easy Hair Removal)</p>
                       <h1 class="text-6xl adlam-display-regular">$7.99</h1>
                     </div>
                     <!-- dog img -->
@@ -332,19 +332,19 @@
      <!-- footer Area -->
       <footer class="relative">
            <!-- Challenge section  -->
-            <div class="lg:flex bg-[#FFF9F4] max-w-7xl m-auto items-center lg:absolute lg:bottom-60 lg:left-80">
+            <div class="grid lg:grid-cols-2 grid-cols-1 bg-[#FFF9F4] lg:max-w-7xl max-w-sm sm:m-auto items-center lg:absolute relative lg:bottom-60 -bottom-64 sm:pb-7 lg:left-80 left-10">
               <div>
                 <img class="py-10 ml-20" src="c1-assets/cute-pet-mid.png" alt="">
               </div>
-              <div class="space-y-5 ml-32 lg:pr-60">
-                <h1 class="text-4xl adlam-display-regular ">Get Pawsome News!</h1>
+              <div class="lg:text-start text-center lg:space-y-5 space-y-4 lg:ml-32 ml-8 lg:pr-60">
+                <h1 class="lg:text-4xl text-2xl adlam-display-regular ">Get Pawsome News!</h1>
                 <p class="text-xl sora-font2 ">Exclusive training tips, ticks, product deals and more.</p>
                 <input type="text" placeholder="Enter Email" class="input input-bordered w-full max-w-xs" /><br>
                 <button class="text-xl rounded-lg  px-10 py-2 text-black bg-[#FFDC26]">Subscribe</button>
               </div>
             </div>
            <!-- footer Details -->
-           <footer class="footer bg-yellow-200 text-base-content p-10 lg:pl-80 lg:pt-80">
+           <footer class="footer bg-yellow-200 text-base-content p-10 lg:pl-80 lg:pt-80 pt-80">
             <nav>
                <div class="flex items-center gap-3">
                 <img src="c1-assets/logo-footer.png" alt="">
